@@ -1,5 +1,5 @@
 <?php
-use Cagartner\BrazilCustomer\Helper\Helper;
+use Helidalto\BagCliente\Helper\Helper;
 
 $config = Helper::getPersonType();
 $default = \Illuminate\Support\Str::contains($config, ',') ? 'person' : $config;
@@ -57,7 +57,7 @@ $personType = old('person_type') ? old('person_type') : $default;
                 </span>
             </div>
 
-            @if (\Cagartner\BrazilCustomer\Helper\Helper::isShowStateRegister())
+            @if (\Helidalto\BagCliente\Helper\Helper::isShowStateRegister())
                 <div class="control-group mb-4" :class="[errors.has('state_register') ? 'has-error' : '']" v-if="person_type == 'company'">
                     <label for="state_register" class="required label-style">
                         <input type="checkbox" v-model="hasStateRegister" value="1" checked> {{ __('State Register') }}
@@ -96,7 +96,7 @@ $personType = old('person_type') ? old('person_type') : $default;
                 </span>
             </div>
 
-            @if (\Cagartner\BrazilCustomer\Helper\Helper::isShowFantasyName())
+            @if (\Helidalto\BagCliente\Helper\Helper::isShowFantasyName())
                 <div class="control-group mb-4" :class="[errors.has('fantasy_name') ? 'has-error' : '']" v-if="person_type == 'company'">
                     <label for="fantasy_name" class="required label-style">
                         {{ __('Fantasy Name') }}
@@ -116,7 +116,7 @@ $personType = old('person_type') ? old('person_type') : $default;
                 </div>
             @endif
 
-            @if (\Cagartner\BrazilCustomer\Helper\Helper::isShowGeneralRegister())
+            @if (\Helidalto\BagCliente\Helper\Helper::isShowGeneralRegister())
                 <div class="control-group mb-4" :class="[errors.has('general_register') ? 'has-error' : '']" v-if="person_type == 'person'">
                     <label for="general_register" class="required label-style">
                         {{ __('General Register') }}

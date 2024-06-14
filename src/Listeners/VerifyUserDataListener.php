@@ -1,6 +1,6 @@
 <?php
 
-namespace Cagartner\BrazilCustomer\Listeners;
+namespace Helidalto\BagCliente\Listeners;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;

@@ -2,14 +2,14 @@
 /**
  * Helper
  *
- * @author Carlos Gartner <contato@carlosgartner.com.br>
+ * @author Helidalto
  */
 
-namespace Cagartner\BrazilCustomer\Helper;
+namespace Helidalto\BagCliente\Helper;
 
 /**
  * Class Helper
- * @package Cagartner\BrazilCustomer\Helper
+ * @package Helidalto\BagCliente\Helper
  */
 class Helper
 {

@@ -1,25 +1,25 @@
 {
-    "name": "cagartner/bagisto-brazilcustomer",
+    "name": "helidalto/bag-cliente",
     "license": "MIT",
     "authors": [
         {
-            "name": "Carlos Gartner",
-            "email": "contato@carlosgartner.com.br"
+            "name": "Helidalto Gonçalves",
+            "email": "helidalto@gmail.com"
         }
     ],
     "require": {
     },
     "autoload": {
         "psr-4": {
-            "Cagartner\\BrazilCustomer\\": "src/"
+            "Helidalto\\BagCliente\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Cagartner\\BrazilCustomer\\Providers\\BrazilCustomerServiceProvider"
+                "Helidalto\\BagCliente\\Providers\\BagClienteServiceProvider"
             ]
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }

@@ -1,14 +1,14 @@
 <?php
 
-namespace Cagartner\BrazilCustomer\Providers;
+namespace Helidalto\BagCliente\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
 /**
- * Class BrazilCustomerServiceProvider
- * @package Cagartner\BrazilCustomer\Providers
+ * Class BagClienteServiceProvider
+ * @package Helidalto\BagCliente\Providers
  */
-class BrazilCustomerServiceProvider extends ServiceProvider
+class BagClienteServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap services.

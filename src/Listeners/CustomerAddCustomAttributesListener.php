@@ -1,6 +1,6 @@
 <?php
 
-namespace Cagartner\BrazilCustomer\Listeners;
+namespace Helidalto\BagCliente\Listeners;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Http\Request;
@@ -35,7 +35,7 @@ class CustomerAddCustomAttributesListener
         }
 
         if ($this->request->has('document')) {
-            $document = \Cagartner\BrazilCustomer\Helper\Helper::clearDocumentString($this->request->get('document'));
+            $document = \Helidalto\BagCliente\Helper\Helper::clearDocumentString($this->request->get('document'));
             $customer->document = $document;
             $save = true;
         }

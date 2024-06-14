@@ -1,16 +1,16 @@
 <?php
 
-namespace Cagartner\BrazilCustomer\Providers;
+namespace Helidalto\BagCliente\Providers;
 
-use Cagartner\BrazilCustomer\Listeners\CustomerAddCustomAttributesListener;
-use Cagartner\BrazilCustomer\Listeners\VerifyUserDataListener;
-use Cagartner\BrazilCustomer\Listeners\VerifyUserDataListenerCheckout;
+use Helidalto\BagCliente\Listeners\CustomerAddCustomAttributesListener;
+use Helidalto\BagCliente\Listeners\VerifyUserDataListener;
+use Helidalto\BagCliente\Listeners\VerifyUserDataListenerCheckout;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\ServiceProvider;
 
 /**
  * Class EventServiceProvider
- * @package Cagartner\BrazilCustomer\Providers
+ * @package Helidalto\BagCliente\Providers
  */
 class EventServiceProvider extends ServiceProvider
 {
